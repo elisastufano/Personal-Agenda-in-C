@@ -1,4 +1,4 @@
-# 📅 Personal Agenda – Menu System in C
+# 📅 Personal Agenda – in C
 
 This project is a **console-based personal agenda application** developed in **C**, designed to help users manage their daily activities through a clear and structured **menu-driven interface**.
 
