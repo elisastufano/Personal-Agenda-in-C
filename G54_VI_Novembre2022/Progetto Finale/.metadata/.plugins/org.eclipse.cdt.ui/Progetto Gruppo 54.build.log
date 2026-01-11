@@ -1,0 +1,7 @@
+17:19:43 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+
+17:19:44 Build Finished. 0 errors, 0 warnings. (took 1s.290ms)
+

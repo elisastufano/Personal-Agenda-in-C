@@ -1,0 +1,837 @@
+16:19:29 **** Rebuild of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazione_inserimenti.o "..\\manipolazione_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+..\ordinamento.c:10:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:19:58 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c:7:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:20:04 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c:8:39: fatal error: manipolazionieinserimenti.h: No such file or directory
+ #include "manipolazionieinserimenti.h"
+                                       ^
+compilation terminated.
+16:20:17 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c:8:39: fatal error: manipolazione.inserimenti.h: No such file or directory
+ #include "manipolazione.inserimenti.h"
+                                       ^
+compilation terminated.
+16:20:28 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:231:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:232:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+..\statistiche.c:9:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:20:36 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+..\operazioni.c:9:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:20:44 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -o "Progetto Gruppo 54.exe" controllo.inserimenti.o main.o manipolazione_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+Info: Nothing to build for Progetto Gruppo 54
+Info: Nothing to build for Progetto Gruppo 54
+16:24:25 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -o "Progetto Gruppo 54.exe" controllo.inserimenti.o main.o manipolazione_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+16:25:53 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -o "Progetto Gruppo 54.exe" controllo.inserimenti.o main.o manipolazione_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:26:55 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -o "Progetto Gruppo 54.exe" controllo.inserimenti.o main.o manipolazione_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:27:57 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -o "Progetto Gruppo 54.exe" controllo.inserimenti.o main.o manipolazione_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:30:22 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazione_inserimenti.o "..\\manipolazione_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni.inserimenti.o "..\\manipolazioni.inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:231:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:232:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazione_inserimenti.o manipolazioni.inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+manipolazioni.inserimenti.o: In function `generazione_codice_random':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:11: multiple definition of `generazione_codice_random'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:11: first defined here
+manipolazioni.inserimenti.o: In function `visualizza_codici':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:22: multiple definition of `visualizza_codici'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:22: first defined here
+manipolazioni.inserimenti.o: In function `conversione_tipologia':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:43: multiple definition of `conversione_tipologia'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:43: first defined here
+manipolazioni.inserimenti.o: In function `inserimento_modifica':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:73: multiple definition of `inserimento_modifica'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:73: first defined here
+manipolazioni.inserimenti.o: In function `conteggio_file':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:128: multiple definition of `conteggio_file'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:128: first defined here
+manipolazioni.inserimenti.o: In function `ricerca':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:153: multiple definition of `ricerca'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:153: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:30:44 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazione_inserimenti.o manipolazioni.inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+manipolazioni.inserimenti.o: In function `generazione_codice_random':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:11: multiple definition of `generazione_codice_random'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:11: first defined here
+manipolazioni.inserimenti.o: In function `visualizza_codici':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:22: multiple definition of `visualizza_codici'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:22: first defined here
+manipolazioni.inserimenti.o: In function `conversione_tipologia':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:43: multiple definition of `conversione_tipologia'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:43: first defined here
+manipolazioni.inserimenti.o: In function `inserimento_modifica':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:73: multiple definition of `inserimento_modifica'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:73: first defined here
+manipolazioni.inserimenti.o: In function `conteggio_file':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:128: multiple definition of `conteggio_file'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:128: first defined here
+manipolazioni.inserimenti.o: In function `ricerca':
+D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazioni.inserimenti.c:153: multiple definition of `ricerca'
+manipolazione_inserimenti.o:D:\Progetto Finale\Progetto Gruppo 54\Debug/../manipolazione_inserimenti.c:153: first defined here
+collect2.exe: error: ld returned 1 exit status
+16:31:18 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+..\statistiche.c:9:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:31:33 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+..\ordinamento.c:10:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:31:40 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c:8:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:31:47 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+..\operazioni.c:9:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:31:53 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:231:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:232:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c:7:39: fatal error: manipolazioni_inserimenti.h: No such file or directory
+ #include "manipolazioni_inserimenti.h"
+                                       ^
+compilation terminated.
+16:32:09 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:231:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:232:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni.inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+16:32:28 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_.inserimenti.o "..\\manipolazioni_.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_.inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:32:41 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:33:14 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+16:33:50 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+16:59:17 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:59:58 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+17:01:12 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+18:31:23 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:231:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:232:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:31:29 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+18:32:23 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+18:38:26 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:38:33 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+18:45:27 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+19:00:37 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_durata':
+..\controllo.inserimenti.c:193:18: warning: unknown conversion type character '.' in format [-Wformat=]
+     c =scanf("\n%.4d", durata);
+                  ^
+..\controllo.inserimenti.c:193:14: warning: too many arguments for format [-Wformat-extra-args]
+     c =scanf("\n%.4d", durata);
+              ^~~~~~~~
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+19:00:48 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+19:02:47 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:02:51 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+19:04:56 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o statistiche.o 
+16:53:34 **** Rebuild of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+..\menu.c: In function 'scelta_menu_iniziale':
+..\menu.c:52:7: warning: implicit declaration of function 'ricerca_registrazione' [-Wimplicit-function-declaration]
+       ricerca_registrazione();
+       ^~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+..\ricerca.c: In function 'ricerca_registrazione':
+..\ricerca.c:56:10: warning: implicit declaration of function 'ricerca_data' [-Wimplicit-function-declaration]
+      if (ricerca_data(evento, valore_ricerca, 1)==0){
+          ^~~~~~~~~~~~
+..\ricerca.c:79:11: warning: implicit declaration of function 'ricerca_contrassegno' [-Wimplicit-function-declaration]
+       if (ricerca_contrassegno(evento, 1)==0){
+           ^~~~~~~~~~~~~~~~~~~~
+..\ricerca.c: In function 'ricerca_data':
+..\ricerca.c:124:27: warning: implicit declaration of function 'strcpy' [-Wimplicit-function-declaration]
+                           strcpy(contrassegno, temporaneo);
+                           ^~~~~~
+..\ricerca.c:124:27: warning: incompatible implicit declaration of built-in function 'strcpy'
+..\ricerca.c:124:27: note: include '<string.h>' or provide a declaration of 'strcpy'
+..\ricerca.c:128:27: warning: incompatible implicit declaration of built-in function 'strcpy'
+                           strcpy(contrassegno, temporaneo);
+                           ^~~~~~
+..\ricerca.c:128:27: note: include '<string.h>' or provide a declaration of 'strcpy'
+..\ricerca.c: In function 'ricerca_contrassegno':
+..\ricerca.c:176:7: warning: incompatible implicit declaration of built-in function 'strcpy'
+       strcpy(contrassegno, temporaneo);
+       ^~~~~~
+..\ricerca.c:176:7: note: include '<string.h>' or provide a declaration of 'strcpy'
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:55:25 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+..\ricerca.c: In function 'ricerca_registrazione':
+..\ricerca.c:57:10: warning: implicit declaration of function 'ricerca_data' [-Wimplicit-function-declaration]
+      if (ricerca_data(evento, valore_ricerca, 1)==0){
+          ^~~~~~~~~~~~
+..\ricerca.c:80:11: warning: implicit declaration of function 'ricerca_contrassegno' [-Wimplicit-function-declaration]
+       if (ricerca_contrassegno(evento, 1)==0){
+           ^~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:56:21 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+..\ricerca.c: In function 'ricerca_registrazione':
+..\ricerca.c:57:10: warning: implicit declaration of function 'ricerca_data' [-Wimplicit-function-declaration]
+      if (ricerca_data(evento, valore_ricerca, 1)==0){
+          ^~~~~~~~~~~~
+..\ricerca.c:80:10: warning: implicit declaration of function 'ricerca_contrassegno' [-Wimplicit-function-declaration]
+       if(ricerca_contrassegno(evento, 1)==0){
+          ^~~~~~~~~~~~~~~~~~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:57:38 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+Info: Nothing to build for Progetto Gruppo 54
+Info: Nothing to build for Progetto Gruppo 54
+16:59:09 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:59:21 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:04:23 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:04:30 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:05:38 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:05:42 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:06:40 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:06:47 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:09:21 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:15:05 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:16:52 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:16:56 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+17:17:52 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:18:33 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:18:36 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:22:00 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:23:02 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:23:07 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:25:40 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:28:58 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:29:02 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:29:47 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:30:11 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:31:02 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:31:28 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:34:58 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:35:58 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:36:04 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:37:20 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:37:54 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:38:38 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:39:25 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:00:07 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:00:43 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+..\ricerca.c: In function 'ricerca_registrazione':
+..\ricerca.c:103:12: error: too few arguments to function 'fflush'
+            fflush();
+            ^~~~~~
+In file included from ..\ricerca.c:2:0:
+c:\mingw\include\stdio.h:262:41: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  int    fflush (FILE *);
+                                         ^~~~~~
+18:00:51 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:01:24 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:23:05 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_tipologia':
+..\controllo.inserimenti.c:233:12: warning: this 'while' clause does not guard... [-Wmisleading-indentation]
+            while (getchar() != '\n');
+            ^~~~~
+..\controllo.inserimenti.c:234:6: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'while'
+      printf ("Attenzione: input non valido. Riprova. \n ");
+      ^~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:23:18 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:24:13 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:26:11 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+18:27:39 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+18:29:21 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+20:12:52 **** Rebuild of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_orario':
+..\controllo.inserimenti.c:99:7: warning: unused variable 'flag' [-Wunused-variable]
+   int flag= 0;
+       ^~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" "..\\.metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+20:14:48 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_orario':
+..\controllo.inserimenti.c:99:7: warning: unused variable 'flag' [-Wunused-variable]
+   int flag= 0;
+       ^~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+20:15:35 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_orario':
+..\controllo.inserimenti.c:238:1: error: expected declaration or statement at end of input
+ }
+ ^
+..\controllo.inserimenti.c:99:7: warning: unused variable 'flag' [-Wunused-variable]
+   int flag= 0;
+       ^~~~
+At top level:
+..\controllo.inserimenti.c:218:6: warning: 'controllo_tipologia' defined but not used [-Wunused-function]
+ void controllo_tipologia(int *scelta){
+      ^~~~~~~~~~~~~~~~~~~
+..\controllo.inserimenti.c:207:6: warning: 'controllo_lung_descrizione' defined but not used [-Wunused-function]
+ void controllo_lung_descrizione(char *stringa){
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+..\controllo.inserimenti.c:181:6: warning: 'controllo_durata' defined but not used [-Wunused-function]
+ void controllo_durata (int* durata) {
+      ^~~~~~~~~~~~~~~~
+..\controllo.inserimenti.c:134:6: warning: 'controllo_data' defined but not used [-Wunused-function]
+ void controllo_data(data *puntatore){
+      ^~~~~~~~~~~~~~
+20:16:05 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_orario':
+..\controllo.inserimenti.c:99:7: warning: unused variable 'flag' [-Wunused-variable]
+   int flag= 0;
+       ^~~~
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+15:24:42 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+..\controllo.inserimenti.c: In function 'controllo_data':
+..\controllo.inserimenti.c:158:20: warning: format '%d' expects a matching 'int *' argument [-Wformat=]
+     c =scanf("\n%d%d", &puntatore->giorno);
+                    ^
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+15:25:02 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+15:25:23 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+15:29:05 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+15:36:49 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+15:45:32 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+15:54:11 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o statistiche.o "..\\statistiche.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+15:57:00 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+15:59:47 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:00:04 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:01:57 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:07:55 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:13:37 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:17:58 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:20:35 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+16:22:59 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+Info: Nothing to build for Progetto Gruppo 54
+16:24:31 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:08:12 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ordinamento.o "..\\ordinamento.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o menu.o "..\\menu.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o manipolazioni_inserimenti.o "..\\manipolazioni_inserimenti.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o ricerca.o "..\\ricerca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o operazioni.o "..\\operazioni.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:11:27 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:11:35 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:12:29 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:12:34 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:13:05 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:13:41 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:16:02 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file Progetto Gruppo 54.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+17:16:09 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:16:17 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:17:17 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:17:43 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:18:30 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 
+17:19:43 **** Incremental Build of configuration Debug for project Progetto Gruppo 54 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o controllo.inserimenti.o "..\\controllo.inserimenti.c" 
+gcc -o "Progetto Gruppo 54.exe" ".metadata\\.plugins\\org.eclipse.cdt.make.core\\specs.o" controllo.inserimenti.o main.o manipolazioni_inserimenti.o menu.o operazioni.o ordinamento.o ricerca.o statistiche.o 

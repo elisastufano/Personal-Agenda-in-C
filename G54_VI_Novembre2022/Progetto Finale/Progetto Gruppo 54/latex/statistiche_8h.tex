@@ -1,0 +1,64 @@
+\hypertarget{statistiche_8h}{}\doxysection{statistiche.\+h File Reference}
+\label{statistiche_8h}\index{statistiche.h@{statistiche.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{statistiche_8h_a26c784c888d9fef6b5abd7257f0e3ca3}{statistiche}} (\mbox{\hyperlink{structstatistiche__tipo}{statistiche\+\_\+tipo}} tipo, int l, int durata\+\_\+totale)
+\item 
+void \mbox{\hyperlink{statistiche_8h_aad21c2a1e7c96666be4d088c924a1e0c}{valori\+\_\+statistiche}} (F\+I\+LE $\ast$registrazione)
+\item 
+void \mbox{\hyperlink{statistiche_8h_a32db3e295979fd391bb4278f06691c2f}{statistica\+\_\+durata}} (F\+I\+LE $\ast$registrazione, int $\ast$durata\+\_\+tot)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sottoprogrammi per le statistiche delle registrazioni.
+
+\begin{DoxyDate}{Date}
+27/10/2022
+\end{DoxyDate}
+\begin{DoxyAuthor}{Authors}
+Catherine Martin, Elisa Stufano. 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{statistiche_8h_a32db3e295979fd391bb4278f06691c2f}\label{statistiche_8h_a32db3e295979fd391bb4278f06691c2f}} 
+\index{statistiche.h@{statistiche.h}!statistica\_durata@{statistica\_durata}}
+\index{statistica\_durata@{statistica\_durata}!statistiche.h@{statistiche.h}}
+\doxysubsubsection{\texorpdfstring{statistica\_durata()}{statistica\_durata()}}
+{\footnotesize\ttfamily void statistica\+\_\+durata (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{registrazione,  }\item[{int $\ast$}]{durata\+\_\+tot }\end{DoxyParamCaption})}
+
+Funzione che somma la durata di tutte le registrazioni. 
+\begin{DoxyParams}{Parameters}
+{\em registrazione} & F\+I\+LE che contiene le registrazioni inserite dall\textquotesingle{}utente. \\
+\hline
+{\em durata\+\_\+tot} & somma delle durate di tutte le registrazioni. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{statistiche_8h_a26c784c888d9fef6b5abd7257f0e3ca3}\label{statistiche_8h_a26c784c888d9fef6b5abd7257f0e3ca3}} 
+\index{statistiche.h@{statistiche.h}!statistiche@{statistiche}}
+\index{statistiche@{statistiche}!statistiche.h@{statistiche.h}}
+\doxysubsubsection{\texorpdfstring{statistiche()}{statistiche()}}
+{\footnotesize\ttfamily void statistiche (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structstatistiche__tipo}{statistiche\+\_\+tipo}}}]{tipo,  }\item[{int}]{l,  }\item[{int}]{durata\+\_\+totale }\end{DoxyParamCaption})}
+
+Funzione che stampa a schermo le statistiche. 
+\begin{DoxyParams}{Parameters}
+{\em tipo} & Struct che contiene la ricorrenza della tipologia delle registrazioni. \\
+\hline
+{\em l} & numero di registrazioni nel F\+I\+LE. \\
+\hline
+{\em durata\+\_\+totale} & somma di tutte le durate delle registrazioni. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{statistiche_8h_aad21c2a1e7c96666be4d088c924a1e0c}\label{statistiche_8h_aad21c2a1e7c96666be4d088c924a1e0c}} 
+\index{statistiche.h@{statistiche.h}!valori\_statistiche@{valori\_statistiche}}
+\index{valori\_statistiche@{valori\_statistiche}!statistiche.h@{statistiche.h}}
+\doxysubsubsection{\texorpdfstring{valori\_statistiche()}{valori\_statistiche()}}
+{\footnotesize\ttfamily void valori\+\_\+statistiche (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{registrazione }\end{DoxyParamCaption})}
+
+Funzione che calcola la ricorrenza delle tipologie delle registrazioni. 
+\begin{DoxyParams}{Parameters}
+{\em registrazione} & F\+I\+LE che contiene le registrazioni inserite dall\textquotesingle{}utente. \\
+\hline
+\end{DoxyParams}

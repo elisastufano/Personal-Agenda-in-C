@@ -1,0 +1,117 @@
+\hypertarget{controllo__inserimenti_8h}{}\doxysection{controllo\+\_\+inserimenti.\+h File Reference}
+\label{controllo__inserimenti_8h}\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{controllo__inserimenti_8h_a3c2fbe90860a5ffd938a1e6269e9e6ed}{controllo\+\_\+generazione\+\_\+codice}} (F\+I\+LE $\ast$registrazione, int codice)
+\item 
+int \mbox{\hyperlink{controllo__inserimenti_8h_a30a54928c0016a722265c6dc5a945605}{controllo\+\_\+inserimento\+\_\+menu}} (int minimo, int massimo, int num)
+\item 
+void \mbox{\hyperlink{controllo__inserimenti_8h_a7fb726e4b8e74461e3595f5bd663c1f2}{controllo\+\_\+codice}} (F\+I\+LE $\ast$registrazione, int $\ast$codice\+\_\+inserito)
+\item 
+\mbox{\Hypertarget{controllo__inserimenti_8h_ab1cc96d64164701417c6efe06dbff5c2}\label{controllo__inserimenti_8h_ab1cc96d64164701417c6efe06dbff5c2}} 
+void {\bfseries controllo\+\_\+orario} ()
+\item 
+\mbox{\Hypertarget{controllo__inserimenti_8h_a2d75cd47e01382c2f284f806274af14d}\label{controllo__inserimenti_8h_a2d75cd47e01382c2f284f806274af14d}} 
+void {\bfseries controllo\+\_\+data} ()
+\item 
+void \mbox{\hyperlink{controllo__inserimenti_8h_a652b68df18a6eb4ec343486dcbddbbee}{controllo\+\_\+durata}} (int $\ast$durata)
+\item 
+void \mbox{\hyperlink{controllo__inserimenti_8h_a391a18fef837976dcba6e9819e5af32b}{controllo\+\_\+lung\+\_\+descrizione}} (char $\ast$stringa)
+\item 
+void \mbox{\hyperlink{controllo__inserimenti_8h_ad29f70ac5eca9b120cdf091850d2372f}{controllo\+\_\+tipologia}} (int $\ast$scelta)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Sottoprogrammi per controllare gli input inseriti dall\textquotesingle{}utente.
+
+\begin{DoxyDate}{Date}
+27/10/2022
+\end{DoxyDate}
+\begin{DoxyAuthor}{Authors}
+Catherine Martin, Elisa Stufano. 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{controllo__inserimenti_8h_a7fb726e4b8e74461e3595f5bd663c1f2}\label{controllo__inserimenti_8h_a7fb726e4b8e74461e3595f5bd663c1f2}} 
+\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}!controllo\_codice@{controllo\_codice}}
+\index{controllo\_codice@{controllo\_codice}!controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsubsection{\texorpdfstring{controllo\_codice()}{controllo\_codice()}}
+{\footnotesize\ttfamily void controllo\+\_\+codice (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{registrazione,  }\item[{int $\ast$}]{codice\+\_\+inserito }\end{DoxyParamCaption})}
+
+Funzione che controlla che il codice inserito dall\textquotesingle{}utente corrisponde ad una registrazione esistente. 
+\begin{DoxyParams}{Parameters}
+{\em registrazione} & F\+I\+LE che contiene le registrazioni inserite dall\textquotesingle{}utente. \\
+\hline
+{\em codice\+\_\+inserito} & codice inserito in input dall\textquotesingle{}utente. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+codice corretto inserito dall\textquotesingle{}utente. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{controllo__inserimenti_8h_a652b68df18a6eb4ec343486dcbddbbee}\label{controllo__inserimenti_8h_a652b68df18a6eb4ec343486dcbddbbee}} 
+\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}!controllo\_durata@{controllo\_durata}}
+\index{controllo\_durata@{controllo\_durata}!controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsubsection{\texorpdfstring{controllo\_durata()}{controllo\_durata()}}
+{\footnotesize\ttfamily void controllo\+\_\+durata (\begin{DoxyParamCaption}\item[{int $\ast$}]{durata }\end{DoxyParamCaption})}
+
+Funzione che controlla se la durata inserita è una stringa o un intero. 
+\begin{DoxyParams}{Parameters}
+{\em durata} & puntatore alla durata inserita dall\textquotesingle{}utente. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controllo__inserimenti_8h_a3c2fbe90860a5ffd938a1e6269e9e6ed}\label{controllo__inserimenti_8h_a3c2fbe90860a5ffd938a1e6269e9e6ed}} 
+\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}!controllo\_generazione\_codice@{controllo\_generazione\_codice}}
+\index{controllo\_generazione\_codice@{controllo\_generazione\_codice}!controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsubsection{\texorpdfstring{controllo\_generazione\_codice()}{controllo\_generazione\_codice()}}
+{\footnotesize\ttfamily void controllo\+\_\+generazione\+\_\+codice (\begin{DoxyParamCaption}\item[{F\+I\+LE $\ast$}]{registrazione,  }\item[{int}]{codice }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parameters}
+{\em registrazione} & F\+I\+LE che contiene le registrazioni inserite dall\textquotesingle{}utente. \\
+\hline
+{\em codice} & codice generato dalla funzione random. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controllo__inserimenti_8h_a30a54928c0016a722265c6dc5a945605}\label{controllo__inserimenti_8h_a30a54928c0016a722265c6dc5a945605}} 
+\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}!controllo\_inserimento\_menu@{controllo\_inserimento\_menu}}
+\index{controllo\_inserimento\_menu@{controllo\_inserimento\_menu}!controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsubsection{\texorpdfstring{controllo\_inserimento\_menu()}{controllo\_inserimento\_menu()}}
+{\footnotesize\ttfamily int controllo\+\_\+inserimento\+\_\+menu (\begin{DoxyParamCaption}\item[{int}]{minimo,  }\item[{int}]{massimo,  }\item[{int}]{num }\end{DoxyParamCaption})}
+
+Funzione che controlla se l\textquotesingle{}utente ha i nserito correttamente il codice di scelta del menu principale. 
+\begin{DoxyParams}{Parameters}
+{\em minimo} & numero minimo del range della scelta del menu. \\
+\hline
+{\em massimo} & numero massimo del range della scelta del menu. \\
+\hline
+{\em num} & numero che inserisce l\textquotesingle{}utente. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+numero corretto inserito dall\textquotesingle{}utente. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{controllo__inserimenti_8h_a391a18fef837976dcba6e9819e5af32b}\label{controllo__inserimenti_8h_a391a18fef837976dcba6e9819e5af32b}} 
+\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}!controllo\_lung\_descrizione@{controllo\_lung\_descrizione}}
+\index{controllo\_lung\_descrizione@{controllo\_lung\_descrizione}!controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsubsection{\texorpdfstring{controllo\_lung\_descrizione()}{controllo\_lung\_descrizione()}}
+{\footnotesize\ttfamily void controllo\+\_\+lung\+\_\+descrizione (\begin{DoxyParamCaption}\item[{char $\ast$}]{stringa }\end{DoxyParamCaption})}
+
+Funzione che controlla se la lunghezza della descrizione è corretta. 
+\begin{DoxyParams}{Parameters}
+{\em stringa} & descrizione inserita dall\textquotesingle{}utente \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{controllo__inserimenti_8h_ad29f70ac5eca9b120cdf091850d2372f}\label{controllo__inserimenti_8h_ad29f70ac5eca9b120cdf091850d2372f}} 
+\index{controllo\_inserimenti.h@{controllo\_inserimenti.h}!controllo\_tipologia@{controllo\_tipologia}}
+\index{controllo\_tipologia@{controllo\_tipologia}!controllo\_inserimenti.h@{controllo\_inserimenti.h}}
+\doxysubsubsection{\texorpdfstring{controllo\_tipologia()}{controllo\_tipologia()}}
+{\footnotesize\ttfamily void controllo\+\_\+tipologia (\begin{DoxyParamCaption}\item[{int $\ast$}]{scelta }\end{DoxyParamCaption})}
+
+Funzione che controlla se la tipologia inserita dall\textquotesingle{}utente. 
+\begin{DoxyParams}{Parameters}
+{\em scelta} & intero inserito dall\textquotesingle{}utente \\
+\hline
+\end{DoxyParams}
